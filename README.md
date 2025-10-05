@@ -161,24 +161,3 @@ Then open your browser and visit:
 | Notifications    | smtplib         | Email alert system (optional)                |
 
 ---
-
-## 📧 Email Notifications
-
-To enable email alerts for transactions, configure environment variables:
-
-```bash
-export ADMIN_EMAIL="your-email@gmail.com"
-export ADMIN_PASSWORD="your-app-specific-password"
-export SMTP_SERVER="smtp.gmail.com"
-export SMTP_PORT="587"
-```
-
-### 🔐 Gmail Setup
-
-1. Enable **2-Step Verification** on your Gmail account  
-2. Create an **App Password** for “Mail”  
-3. Use that app password in the `ADMIN_PASSWORD` environment variable
-
-If not configured, notifications will simply print to the console.
-
----
